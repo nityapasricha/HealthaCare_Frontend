@@ -1,0 +1,190 @@
+
+.logo {
+  display: inline-flex;
+  margin: 0;
+}
+
+.logo img {
+  padding: 0vh 0vh 2vh 2vh;
+  height: 60px;
+  margin: 0;
+}
+
+.logo .upper_header {
+  display: inline-block;
+  padding: 5px 1px 4px 5px;
+}
+
+.logo_text {
+  display: inline-block;
+  font-family: 'Acme';
+  font-size: 10vh;
+  color: rgb(80, 109, 80);
+}
+
+.logo_text li {
+  list-style-type: none;
+  color: rgb(131, 130, 130);
+  font-size: 3vh;
+}
+
+.logo_text a:link,
+a:visited,
+a:active,
+a:hover {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(51, 133, 133);
+}
+
+
+.icon-circle {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+          
+.icon-circle img {
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.icon-circle:hover{
+  opacity: 55%;
+  width: 80%;
+  height: 80%;
+}
+.category {
+    text-align: center;
+    margin-top: 10px;
+}
+.img{
+  background-color: lightblue;
+}
+
+.sidebar h2 {
+  color: white;
+}
+.doctor-card {
+  margin-bottom: 20px;
+}
+.doctor-card img {
+  border-radius: 10px;
+}
+
+.doctor-info {
+  padding: 10px;
+}
+
+.sidebar {
+  background-color: #003865;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card-img-top{
+    height: 270px;
+    max-width: 300px;
+}
+
+/* .modal-class {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  border: 3px solid #f1f1f1;
+  box-shadow: 2px 2px 20px 20px rgba(0, 0, 0, 0.111);
+  z-index: 9;
+  position: fixed;
+  margin: 5px;
+}
+  */
+.form-container {
+  background-color: white;
+}
+.form-container input[type=text],
+.form-container input[type=password] {
+    border: none;
+    background: #f1f1f1;
+    transition: width 0.4s;            
+}
+.label label{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form-container input[type=text]:focus,
+.form-container input[type=password]:focus {
+    background-color: #ddd;
+    width: 50%;
+    outline: none;
+}
+
+.form-container .btn {
+  background-color: rgb(81, 116, 81);
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 2px;
+
+}
+.form-container .close {
+  background-color: rgb(206, 55, 55);
+  cursor: pointer;
+  color: white;
+  border: none;
+  padding: 5px;
+  margin: 4px;
+}
+.form-container .btn:hover,
+.open-button:hover {
+    opacity: 1;
+    
+
+} 
+.category {
+  text-align: center;
+  margin-top: 10px;
+}
+.modal-header {
+  border-bottom: none;
+}
+.modal-header .close {
+  margin-top: -20px;
+}
+.modal-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #476d3b;
+  text-align: center;
+  width: 100%;
+}
+.form-label {
+  font-weight: bold;
+  color: #000;
+}
+.form-control {
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+.btn-login {
+  background-color: #476d3b;
+  border: none;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.btn-close {
+  background-color: #dc3545;
+  border: none;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
