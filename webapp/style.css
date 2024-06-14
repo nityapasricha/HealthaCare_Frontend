@@ -48,17 +48,22 @@ a:hover {
     justify-content: center;
     margin: auto;
 }
-          
+      
+.icon-circle{
+  transition: transform 0.5s;
+}
+
+.icon-circle:hover{
+  transform: scale(1.20);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  opacity: 30%;
+}
 .icon-circle img {
     max-width: 70%;
     max-height: 70%;
 }
 
-.icon-circle:hover{
-  opacity: 55%;
-  width: 80%;
-  height: 80%;
-}
+
 .category {
     text-align: center;
     margin-top: 10px;
@@ -187,4 +192,20 @@ a:hover {
   border-radius: 0.5rem;
   font-size: 1rem;
   font-weight: bold;
+}
+
+
+
+.map-container {
+  position: relative;
+}
+.clinic-info {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  background-color: #3a3a3a;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 300px;
 }
