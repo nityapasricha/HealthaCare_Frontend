@@ -15,6 +15,9 @@
   padding: 5px 1px 4px 5px;
 }
 
+.nav-item{
+  font-weight: 500;
+}
 .logo_text {
   display: inline-block;
   font-family: 'Acme';
@@ -36,6 +39,7 @@ a:hover {
   text-decoration: none;
   color: rgb(51, 133, 133);
 }
+
 
 
 .icon-circle {
@@ -112,7 +116,7 @@ a:hover {
 .form-container {
   background-color: white;
 }
-.form-container input[type=text],
+.form-container input[type=email],
 .form-container input[type=password] {
     border: none;
     background: #f1f1f1;
@@ -121,7 +125,7 @@ a:hover {
 .label label{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.form-container input[type=text]:focus,
+.form-container input[type=email]:focus,
 .form-container input[type=password]:focus {
     background-color: #ddd;
     width: 50%;
@@ -194,6 +198,10 @@ a:hover {
   font-weight: bold;
 }
 
+.modal-title{
+  font-size: xx-large;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
 
 
 .map-container {
@@ -208,4 +216,37 @@ a:hover {
   padding: 20px;
   border-radius: 8px;
   max-width: 300px;
+}
+
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 40px 0;
+}
+.footer .footer-links a {
+  color: #d3d3d3;
+  text-decoration: none;
+}
+.footer .footer-links a:hover {
+  color: white;
+}
+.footer .social-icons a {
+  color: #d3d3d3;
+  margin: 0 10px;
+  font-size: 20px;
+}
+.footer .social-icons a:hover {
+  color: white;
+}
+.footer .newsletter input[type="email"] {
+  border: none;
+  padding: 10px;
+  width: 70%;
+  margin-right: -5px;
+}
+.footer .newsletter button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
 }
